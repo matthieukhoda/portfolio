@@ -4,4 +4,165 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -2;
 }
+
+#matt {
+  position: relative;
+  top: 10vh;
+  left: 8vw;
+  animation-name: ozma;
+  animation-duration: 4s;
+}
+@keyframes ozma {
+  0% {
+    left: 96vw;
+  }
+  100% {
+    left: 8vw;
+  }
+}
+
+#kho {
+  position: relative;
+  top: 6vh;
+  left: 12vw;
+  animation-name: khoda;
+  animation-duration: 4s;
+}
+
+@keyframes khoda {
+  0% {
+    left: -95vw;
+  }
+  100% {
+    left: 12vw;
+  }
+}
+
+#avatar {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+  animation-name: ava;
+  animation-duration: 18s;
+}
+
+@keyframes ava {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide */
+.slide div img {
+  margin-left: 0px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.slide div:hover img {
+  margin-left: -30px;
+}
+
+#projets {
+  position: absolute;
+  top: 65vh;
+  left: 29vw;
+  animation-name: example;
+  animation-duration: 10s;
+}
+@keyframes example {
+  0% {
+    left: -95vw;
+  }
+  100% {
+    left: 29vw;
+  }
+}
+
+#parcour {
+  position: absolute;
+  top: 75vh;
+  left: 20vw;
+  animation-name: exemple;
+  animation-duration: 10s;
+}
+
+@keyframes exemple {
+  0% {
+    left: -95vw;
+  }
+  100% {
+    left: 20vw;
+  }
+}
+
+#personn {
+  position: absolute;
+  top: 85vh;
+  left: 8vw;
+  animation-name: exempl;
+  animation-duration: 10s;
+}
+
+@keyframes exempl {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 8vw;
+  }
+}
+
+/*  */
+
+/* Title */
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
+
+svg {
+  margin: 0 auto;
+  background: #000;
+  position: relative;
+  width: 70%;
+  z-index: -1;
+  top: -11vh;
+  left: 8vw;
+}
+
+@font-face {
+  font-family: Brandon Grotesque Medium;
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/322729_0_0.woff2");
+}
+
+text {
+  font-family: Brandon Grotesque Medium;
+  fill: #fff;
+  font-size: 95px;
+  opacity: 0;
+  animation: fadein 1.8s forwards;
+}
+
+#ghost {
+  animation-delay: 0.3s;
+}
+
+.triangle text {
+  font-size: 42px;
+  animation-delay: 2s;
+}
+
+#shell {
+  animation-delay: 4s;
+}
+
+/*  */
