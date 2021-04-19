@@ -23,11 +23,29 @@ body {
   height: 150vh;
 }
 
+@media screen and (max-width: 780px) {
+  .grid-container {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1%;
+  }
+}
+
 .grid-card {
   background-color: #ffffff;
   border: 1px solid #3d3d3d;
   position: relative;
   transition: 0.3s;
+}
+
+@media screen and (max-width: 780px) {
+  .grid-card {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1%;
+  }
 }
 
 .grid-card:hover {
@@ -119,6 +137,15 @@ body {
   margin: 1.5rem auto 0 auto;
 }
 
+@media screen and (max-width: 780px) {
+  .card-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1%;
+  }
+}
+
 .card-tag {
   font-size: 12px;
   font-weight: bold;
@@ -147,9 +174,16 @@ body {
   display: block;
   position: absolute;
   top: 5vh;
+  left: 8px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+}
+
+@media screen and (max-width: 780px) {
+  #menuToggle {
+    position: fixed;
+  }
 }
 
 #menuToggle a {

@@ -23,6 +23,15 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  img {
+    display: block;
+    width: 80%;
+    animation: none;
+    left: 2%;
+  }
+}
+
 #kho {
   position: relative;
   top: 6vh;
@@ -59,6 +68,12 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  #avatar {
+    display: block;
+  }
+}
+
 /* Slide */
 .slide div img {
   margin-left: 0px;
@@ -67,6 +82,17 @@
 }
 .slide div:hover img {
   margin-left: -30px;
+}
+
+@media screen and (max-width: 780px) {
+  .slide div img {
+    margin-left: 0px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  .slide div:hover img {
+    margin-left: -8px;
+  }
 }
 
 #projets {
@@ -82,6 +108,16 @@
   }
   100% {
     left: 29vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #projets {
+    display: block;
+    left: 1%;
+    padding: 1%;
+    animation: none;
+    width: 70%;
   }
 }
 
@@ -102,6 +138,16 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  #parcour {
+    display: block;
+    left: 1%;
+    padding: 1%;
+    animation: none;
+    width: 70%;
+  }
+}
+
 #personn {
   position: absolute;
   top: 85vh;
@@ -116,6 +162,16 @@
   }
   100% {
     left: 8vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #personn {
+    display: block;
+    left: 1%;
+    padding: 1%;
+    animation: none;
+    width: 80%;
   }
 }
 
@@ -163,6 +219,17 @@ text {
 
 #shell {
   animation-delay: 4s;
+}
+
+@media screen and (max-width: 780px) {
+  svg {
+    display: block;
+    top: 10vh;
+    width: 100%;
+    left: 2%;
+    padding: 1%;
+    animation: none;
+  }
 }
 
 /* Menu */

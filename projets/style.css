@@ -8,6 +8,14 @@ body {
   margin-top: 5%;
 }
 
+@media screen and (max-width: 780px) {
+  #title {
+    display: block;
+    width: 100%;
+    padding: 1%;
+  }
+}
+
 /* Cards */
 .cards-list {
   z-index: 0;
@@ -96,6 +104,13 @@ body {
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+}
+
+@media screen and (max-width: 780px) {
+  #menuToggle {
+    position: fixed;
+    top: 18vh;
+  }
 }
 
 #menuToggle a {
